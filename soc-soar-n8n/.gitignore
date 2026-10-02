@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.env
+!.env.example
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+n8n_pfsense*
+
+# Données locales
+.n8n/
+pg_data/
+ollama_data/
+*.log
+
+# Exports contenant des données de test ou des credentials
+*credentials*.json
+*.bak
+
+# Système
+.DS_Store
+Thumbs.db
