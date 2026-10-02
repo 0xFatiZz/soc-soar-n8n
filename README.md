@@ -15,7 +15,7 @@ Pourquoi ce choix : les modèles locaux testés (Mistral 7B, Qwen 2.5 3B et 7B) 
 ## Architecture
 
 <!-- TODO : ajouter le schéma d'architecture dans docs/images/architecture.png -->
-![Schéma d'architecture](docs/images/architecture.png)
+![Schéma d'architecture](docs\images\architecture.png)
 
 ```text
 Wazuh ──► Webhook n8n
